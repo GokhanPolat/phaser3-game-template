@@ -1,0 +1,29 @@
+{
+  "ecmaVersion": 6,
+  "libs": [
+    "browser"
+  ],
+  "loadEagerly": [
+    "src/**/*.js"
+  ],
+  "dontLoad": [
+    "libs/**/*.js",
+    "dist/**/*.js"
+  ],
+  "load": [
+    "src/**/*.js",
+    "node_modules/phaser"
+  ],
+  "plugins": {
+    "modules": {},
+    "es_modules": {},
+    "node": {},
+    "doc_comment": {
+      "fullDocs": true,
+      "strong": true
+    },
+    "webpack": {
+      "configPath": "./webpack_dev.config.js"
+    }
+  }
+}

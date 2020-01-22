@@ -1,0 +1,131 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  -ms-touch-action: none;
+}
+
+body {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  border: 0;
+  margin: 0;
+
+  cursor: default;
+  color: #888;
+  background-color: #333;
+
+  text-align: center;
+  font-family: Helvetica, Verdana, Arial, sans-serif;
+
+  /* Center with flexbox                                                      */
+  /* display: flex; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  /* height: 100vh; */
+}
+
+body, canvas, div {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  -khtml-user-select: none;
+  -webkit-tap-highlight-color: rgb(0, 0, 0);
+}
+
+
+header {
+  background-color: #4968ad;
+  color: white;
+  padding: 1em 2em;
+}
+
+section {
+  margin: 2em;
+}
+
+input {
+  padding: 0.8em;
+  margin: 0.5em 0;
+  width: 100%;
+}
+
+input[type=button] {
+  background-color: #4968ad;
+  color: white;
+  font-size: 1em;
+  font-weight: bold;
+  -webkit-appearance: none;
+}
+
+input[type=text] {
+  font-size: 1em;
+}
+
+input[type=number] {
+  font-size: 1em;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+table {
+  background-color: #f5f6f7;
+  border-collapse: separate;
+  border-spacing: 1em;
+  font-size: 1em;
+  margin: 0.5em 0;
+  table-layout: auto;
+  width: 100%
+}
+
+th {
+  text-align: left;
+}
+
+td {
+  color: #4968ad;
+}
+
+.profile_picture {
+  width: 4em;
+  height: 4em;
+}
+
+.output {
+  color: #4968ad;
+}
+
+.success {
+  color: green;
+}
+
+.error {
+  color: red;
+}
+
+/* ========================================================================== */
+/* Game Related CSS                                                           */
+/* ========================================================================== */
+
+#game_container{
+  background-color: rgb(30,30,30);
+}
+canvas {
+  /* background-color: rgba(0, 0, 0, 0); */
+  background-color: rgb(125,123,124);
+  margin-left: 0 !important;
+}
